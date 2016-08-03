@@ -6,8 +6,25 @@
 </head>
 
 <body>
-  <a href='www.wordcradle.com'>Wordcradle</a>
-  <a href='www.columbia.edu/~syc2138'>My Student Website</a>
+  <a href='http://www.wordcradle.com'>Wordcradle</a><br>
+  <a href='http://www.columbia.edu/~syc2138'>My Student Website</a>
+  <form>
+    <input type='text' id='name'></input>
+    <input type='email' id='email'></input>
+    <input type='text' id='subject'></input>
+    <input type='text' id='message'></input>
+  </form>
+  <button id='send' onclick='sendMail(); return false'>Send</button>
+  <script>
+    function sendMail() {
+    var link = "mailto:toad22222-500@yahoo.com"
+      + "?cc=syc2138@columbia.edu"
+      + "&subject=" + escape(document.getElementById('subject').value)
+      + "&body=" + escape(document.getElementById('message').value);
+      
+      window.location.href = link;
+    }
+  </script>
 </body>
 
 </html>
