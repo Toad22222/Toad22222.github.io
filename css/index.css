@@ -2,5 +2,6 @@
   position: fixed;
   background-color: pink;
   height: 100px;
-  width: cover;
+  width: 100%;
+  display: inline-block;
 }
