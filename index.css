@@ -1,0 +1,6 @@
+#nav-bar {
+  position: fixed;
+  background-color: pink;
+  height: 100px;
+  width: cover;
+}
