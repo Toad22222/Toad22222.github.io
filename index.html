@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Toad22222</title>
-</head>
-<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
-<body>
-  <div id='nav-bar'>Hello!</div>
-  <a href='http://www.wordcradle.com'>Wordcradle</a><br>
-  <a href='http://www.columbia.edu/~syc2138'>My Student Website</a><br>
-  <form>
-    Name: <input type='text' id='name'></input><br>
-    Email: <input type='email' id='email'></input><br>
-    Subject: <input type='text' id='subject'></input><br>
-    Message: <input type='text' id='message'></input><br>
-  </form><br>
-  <button id='send' onclick='sendMail(); return false'>Send</button>
-  <script>
-    function sendMail() {
-    var link = "mailto:toad22222-500@yahoo.com"
-      + "?cc=syc2138@columbia.edu"
-      + "&subject=" + escape(document.getElementById('subject').value)
-      + "&body=" + escape(document.getElementById('message').value);
-      
-      window.location.href = link;
-    }
-  </script>
-</body>
-
+  <head>
+    <meta charset="UTF-8">
+    <title>Toad22222</title>
+    <div id='nav-bar'>Hello!</div>
+  </head>
+  <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+  <body>
+    <a href='http://www.wordcradle.com'>Wordcradle</a><br>
+    <a href='http://www.columbia.edu/~syc2138'>My Student Website</a><br>
+    <form>
+      Name: <input type='text' id='name'></input><br>
+      Email: <input type='email' id='email'></input><br>
+      Subject: <input type='text' id='subject'></input><br>
+      Message: <input type='text' id='message'></input><br>
+    </form><br>
+    <button id='send' onclick='sendMail(); return false'>Send</button>
+    <script>
+      function sendMail() {
+      var link = "mailto:toad22222-500@yahoo.com"
+        + "?cc=syc2138@columbia.edu"
+        + "&subject=" + escape(document.getElementById('subject').value)
+        + "&body=" + escape(document.getElementById('message').value);
+        
+        window.location.href = link;
+      }
+    </script>
+  </body>
 </html>
