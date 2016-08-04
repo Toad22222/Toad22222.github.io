@@ -15,4 +15,11 @@
 
 body {
   padding: 50px;
+  top: 100px;
+  position: absolute;
+  border: 50px solid;
+  border-left: rgb(240, 240, 240);
+  border-right: rgb(240, 240, 240);
+  border-bottom: none;
+  border-top: none;
 }
