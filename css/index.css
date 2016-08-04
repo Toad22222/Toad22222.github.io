@@ -1,30 +1,38 @@
 #nav-bar {
   position: fixed;
-  background-color: pink;
+  background-color: #FAD2C6;
   height: 100px;
   width: 100%;
   display: inline-block;
   top: 0px;
   left: 0px;
   font-size: 20px;
-  color: white;
+  color: #C2C7A7;
   padding: 30px;
   font-weight: 600;
   font-family: Verdana;
+  box-shadow: 0px 0px 15px #999999;
+  z-index: 3;
 }
 
 #content {
   top: 100px;
   position: absolute;
-  float: left;
+  display: block;
+  left: 0px;
+  color: #DDBB8E;
   width: 70vw;
   box-shadow: 0px 0px 10px #999999;
+  z-index: 2;
+  background-color: #EEE3C3; /* http://www.colourlovers.com/palette/4306759/I_Read_your_mind */
 }
 
 #sidebar {
   top: 100px;
+  display: block;
+  right: 0px;
   position: fixed;
-  float: right;
   width: 30vw;
-  background-color: aqua;
+  background-color: #E1DECB;
+  z-index: 1;
 }
