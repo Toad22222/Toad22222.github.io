@@ -3,12 +3,16 @@
   background-color: pink;
   height: 100px;
   width: 100%;
-  display: block;
+  display: inline-block;
   top: 0px;
-  float: left;
+  left: 0px;
   font-size: 20px;
   color: white;
   padding: 30px;
   font-weight: 600;
   font-family: Verdana;
+}
+
+body {
+  padding: 50px;
 }
