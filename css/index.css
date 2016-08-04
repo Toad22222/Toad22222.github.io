@@ -13,13 +13,18 @@
   font-family: Verdana;
 }
 
-body {
-  padding: 50px;
+#content {
   top: 100px;
   position: absolute;
-  border: 50px solid;
-  border-left: rgb(240, 240, 240);
-  border-right: rgb(240, 240, 240);
-  border-bottom: none;
-  border-top: none;
+  float: left;
+  width: 70vw;
+  box-shadow: 0px 0px 10px #999999;
+}
+
+#sidebar {
+  top: 100px;
+  position: fixed;
+  float: right;
+  width: 30vw;
+  background-color: aqua;
 }
